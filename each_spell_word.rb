@@ -4,3 +4,5 @@
 
 p "Enter a word for me to spell:"
 
+word = gets.chomp.split("")
+p word
