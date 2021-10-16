@@ -8,6 +8,6 @@ splat = gets.chomp.split("")
 
 splat.each do |letter|
   counts = splat.count(letter)
-  p letter + " occurs #{counts} times"
+  p letter + " appears #{counts} times"
 end
 
